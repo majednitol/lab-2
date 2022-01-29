@@ -15,8 +15,6 @@ void main()
   printf("a[%d]=",i);
   scanf("%d", &a[i]);
  }
- 
-
  asc_sort(a,n);
  
  printf("Array in ascending order is:\n");
@@ -26,8 +24,6 @@ void main()
  }
  
 }
-
-
 
 void asc_sort(int a[10], int n)
 {
