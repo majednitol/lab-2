@@ -1,14 +1,15 @@
 #include <stdio.h>
 
-void printElementPosition(int a[],int n, int element){
+int printElementPosition(int a[],int n, int element){
     int i;
 for (i = 0; i < n; i++)
     {
         if (a[i] == element)
         {
             printf("%d found at position %d", element, i + 1);
-            
+            return 0;
         }
+        
     }
 
     printf("%d not found.", element);
@@ -26,6 +27,6 @@ int main()
 
     printf("Enter element to search: ");
     scanf("%d", &element);
-    printElementPosition(a,5,element);
+    printElementPosition(a,n,element);
      return 0;
 }

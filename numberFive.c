@@ -12,7 +12,7 @@ void main()
 
  for(i=0;i< n;i++)
  {
-  printf("a[%d]=",i);
+  
   scanf("%d", &a[i]);
  }
  asc_sort(a,n);
