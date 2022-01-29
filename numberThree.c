@@ -33,9 +33,7 @@ void allInformation()
 
 int main()
 {
-
-
-    allInformation();
+  allInformation();
 }
 
 
