@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void asc_sort(int a[100], int n);
+void ascending_sort(int a[100], int n);
 
 void main()
 {
@@ -15,7 +15,7 @@ void main()
   
   scanf("%d", &a[i]);
  }
- asc_sort(a,n);
+ ascending_sort(a,n);
  
  printf("Array in ascending order is:\n");
  for(i=0;i< n;i++)
@@ -25,7 +25,7 @@ void main()
  
 }
 
-void asc_sort(int a[10], int n)
+void ascending_sort(int a[10], int n)
 {
  int i, j, temp;
  for(i=0;i< n-1;i++)
