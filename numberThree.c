@@ -21,7 +21,7 @@ void allInformation()
         scanf("%s%d%d%s",data[i].name,&data[i].id,&data[i].age,&data[i].address);
         printf("enter GPA Of four semester \n");
         scanf("%lf%lf%lf%lf", &data[i].sgpa_1, &data[i].sgpa_2,&data[i].sgpa_3, &data[i].sgpa_4);
-        data[i].cgpa = ( data[i].sgpa_1 * 12 +data[i].sgpa_2 * 16 +data[i].sgpa_3 * 15)+data[i].sgpa_4 * 11/(9+8+13+11);
+        data[i].cgpa = ( data[i].sgpa_1 * 9 +data[i].sgpa_2 * 8 +data[i].sgpa_3 * 13)+data[i].sgpa_4 * 11/(9+8+13+11);
     }
 
     for(j=0; j<11; j++)
@@ -33,7 +33,9 @@ void allInformation()
 
 int main()
 {
-  allInformation();
+
+
+    allInformation();
 }
 
 
